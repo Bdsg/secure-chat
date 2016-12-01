@@ -5,13 +5,13 @@ TODO: Write a project description
 1. Ouvrez deux terminaux. 
 
 2. Dans l'un d'eux, placez-vous dans le dossier server et tapez les commandes : 
-	npm install
-	npm start 
+	`npm install
+	npm start` 
 
 3. Dans le second terminal, placez-vous dans le dossier client et tapez les commandes :
-	bower install
+	`bower install
 	npm install
-	grunt serve
+	grunt serve`
 
 
 ## Usage
