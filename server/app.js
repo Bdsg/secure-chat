@@ -230,10 +230,10 @@ db.users = new Datastore({ filename: 'db/users.db', autoload: true });
 
     var conversations = [
       { name: 'General', parameterized_name: 'general', type: 'channel', channel: 'conversation_channel_general' },
-   //   { name: 'Random', parameterized_name: 'random', type: 'channel', channel: 'conversation_channel_random' },
-   //   { name: 'Questions', parameterized_name: 'questions', type: 'channel', channel: 'conversation_channel_questions' },
-   //   { name: 'AngularJS', parameterized_name: 'angularjs', type: 'channel', channel: 'conversation_channel_angularjs' },
-   //   { name: 'PubNub', parameterized_name: 'pubnub', type: 'channel', channel: 'conversation_channel_pubnub' }
+      { name: 'Random', parameterized_name: 'random', type: 'channel', channel: 'conversation_channel_random' },
+      { name: 'Questions', parameterized_name: 'questions', type: 'channel', channel: 'conversation_channel_questions' },
+      { name: 'AngularJS', parameterized_name: 'angularjs', type: 'channel', channel: 'conversation_channel_angularjs' },
+      { name: 'PubNub', parameterized_name: 'pubnub', type: 'channel', channel: 'conversation_channel_pubnub' }
     ]
 
     conversationsChannels = _.map(conversations, function(conversation){ return conversation.channel });
